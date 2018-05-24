@@ -1,0 +1,97 @@
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+.{
+    background: #FAFAFA;
+    padding: 2%;
+    margin: 2% auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    border: 10px solid #305A72;
+    font: 16px 'Questrial', Arial, Helvetica, sans-serif;
+}
+h2, h4{
+  margin: 2% 0% 0% 5%;
+  font: 1em 'Questrial', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.form-contact-style ul{
+    padding:2%;
+    margin:1% 2%;
+    list-style:none;
+}
+.form-contact-style ul li{
+    display: block;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    min-height: 35px;
+}
+.form-contact-style ul li  .field-style{
+    box-sizing: border-box;
+    padding: 1.5%;
+    outline: none;
+    background-color: rgb(210, 188, 211, .4);
+    border: 1px solid rgb(210, 188, 211, .4);
+    border-radius: 20px;
+
+}.form-contact-style ul li  .field-style:focus{
+    box-shadow: 0 0 5px #B0CFE0;
+    border:1px solid #B0CFE0;
+}
+.form-contact-style ul li .field-split{
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+@media (max-width: 700px){
+  .form-contact-style ul li .field-split {
+    width: 98%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+ }
+ .form-contact-style ul li input[type="button"],
+ .form-contact-style ul li input[type="submit"] {
+     background-color: #58bc82;
+     border: 1px solid;
+     border-radius: 20px;
+     margin: 1% 25%;
+     display: inline-block;
+     color: #FFFFFF;
+     padding: 1% 3%;
+     text-decoration: none;
+     font: 1em 'Questrial', Arial, Helvetica, sans-serif;
+   }
+}
+.form-contact-style ul li .field-full{
+    width: 98%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+
+.form-contact-style ul li input.align-left{
+    float:left;
+}
+.form-contact-style ul li input.align-right{
+    float:right;
+}
+.form-contact-style ul li textarea{
+    width: 98%;
+}
+.form-contact-style ul li input[type="button"],
+.form-contact-style ul li input[type="submit"] {
+    background-color: #58bc82;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 1% 45%;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 1% 3%;
+    text-decoration: none;
+    font: 1em 'Questrial', Arial, Helvetica, sans-serif;
+}
+.form-contact-style ul li input[type="button"]:hover,
+.form-contact-style ul li input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #2D77A2 5%, #4e0250 100%);
+    background-color: #58bc82;
+
+}
