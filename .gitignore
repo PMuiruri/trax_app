@@ -1,2 +1,5 @@
-#ignore nodes modules
+# ignore nodes modules
 /node_modules
+
+# production
+build
